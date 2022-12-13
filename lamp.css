@@ -1,0 +1,49 @@
+#main 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+
+  #container 
+  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  #container img 
+  {
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+  #container button 
+  {
+    background-color: #bcc2bc;
+    padding: 15px 30px;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  
+
+  .bulb-off 
+  {
+    background-color: #000000;
+    transition: background-color 3s ease-out;
+  }
+  
+
+  .bulb-on 
+  {
+    background-color: #ffff80;
+    transition: background-color 3s ease-out;
+  }
